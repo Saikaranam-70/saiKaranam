@@ -19,6 +19,7 @@ import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
+import spring from "./tech/spring.png";
 import threejs from "./tech/threejs.svg";
 
 import meta from "./company/meta.png";
@@ -59,4 +60,5 @@ export {
   carrent,
   jobit,
   tripguide,
+  spring
 };

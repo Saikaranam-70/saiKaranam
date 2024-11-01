@@ -23,6 +23,7 @@ import {
   jobit,
   tripguide,
   threejs,
+  spring,
 } from "../assets";
 
 export const navLinks = [
@@ -54,7 +55,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Java Full stack Developer",
     icon: creator,
   },
 ];
@@ -73,8 +74,8 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name:"Spring Boot",
+    icon:spring
   },
   {
     name: "React JS",
@@ -97,21 +98,10 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
     name: "git",
     icon: git,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
+  
 ];
 
 const experiences = [
@@ -198,9 +188,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Red Cross Connect",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that enables users to register, search for blood donors, and connect with them seamlessly, offering a reliable and efficient solution for blood donation and emergency needs.",
     tags: [
       {
         name: "react",
@@ -211,7 +201,7 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Css",
         color: "pink-text-gradient",
       },
     ],
@@ -219,37 +209,16 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "College Website",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A comprehensive college management platform that provides principal, student, and HOD logins, and offers detailed information about the college.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
+        name: "nodejs",
         color: "green-text-gradient",
       },
       {
@@ -257,9 +226,30 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: jobit,
     source_code_link: "https://github.com/",
   },
+  // {
+  //   name: "Trip Guide",
+  //   description:
+  //     "A comprehensive college management platform that provides principal, student, and HOD logins, and offers detailed information about the college.",
+  //   tags: [
+  //     {
+  //       name: "nextjs",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "supabase",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: tripguide,
+  //   source_code_link: "https://github.com/",
+  // },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
