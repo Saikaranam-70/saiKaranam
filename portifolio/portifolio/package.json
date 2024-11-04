@@ -9,6 +9,7 @@
     "preview": "vite preview",
     "postinstall": "npm install --legacy-peer-deps"
   },
+  
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
     "@react-three/drei": "^9.56.24",
